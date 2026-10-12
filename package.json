@@ -1,0 +1,36 @@
+{
+  "name": "tanveer-prime-bot",
+  "version": "1.0.0",
+  "description": "TANVEER PRIME — Complete, Secure, Modular, Production-Ready Discord Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/runner.js",
+    "report:commands": "node scripts/generateCommandReport.js",
+    "verify:registry": "node scripts/verifyRegistry.js",
+    "deploy:commands": "node src/registry/deployCommands.js"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "tanveer-prime",
+    "anti-nuke",
+    "dashboard",
+    "music"
+  ],
+  "author": "Tanveer (tanveer5637)",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "discord-api-types": "^0.37.119",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
+  }
+}
